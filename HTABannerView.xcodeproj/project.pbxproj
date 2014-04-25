@@ -14,13 +14,12 @@
 		518C9C3B190AC0AF002C9E3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 518C9C3A190AC0AF002C9E3D /* main.m */; };
 		518C9C3F190AC0AF002C9E3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 518C9C3E190AC0AF002C9E3D /* AppDelegate.m */; };
 		518C9C42190AC0AF002C9E3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518C9C40190AC0AF002C9E3D /* Main.storyboard */; };
-		518C9C45190AC0AF002C9E3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 518C9C44190AC0AF002C9E3D /* ViewController.m */; };
 		518C9C47190AC0AF002C9E3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518C9C46190AC0AF002C9E3D /* Images.xcassets */; };
 		518C9C4E190AC0AF002C9E3D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518C9C4D190AC0AF002C9E3D /* XCTest.framework */; };
 		518C9C4F190AC0AF002C9E3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518C9C2E190AC0AF002C9E3D /* Foundation.framework */; };
 		518C9C50190AC0AF002C9E3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518C9C32190AC0AF002C9E3D /* UIKit.framework */; };
-		518C9C58190AC0AF002C9E3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 518C9C56190AC0AF002C9E3D /* InfoPlist.strings */; };
-		518C9C5A190AC0AF002C9E3D /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 518C9C59190AC0AF002C9E3D /* DemoTests.m */; };
+		518C9C65190AC29F002C9E3D /* HTABannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 518C9C64190AC29F002C9E3D /* HTABannerView.m */; };
+		518C9C6B190AC2C3002C9E3D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 518C9C69190AC2C3002C9E3D /* MasterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +44,13 @@
 		518C9C3D190AC0AF002C9E3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		518C9C3E190AC0AF002C9E3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		518C9C41190AC0AF002C9E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		518C9C43190AC0AF002C9E3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		518C9C44190AC0AF002C9E3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		518C9C46190AC0AF002C9E3D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		518C9C4C190AC0AF002C9E3D /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		518C9C4D190AC0AF002C9E3D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		518C9C55190AC0AF002C9E3D /* DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoTests-Info.plist"; sourceTree = "<group>"; };
-		518C9C57190AC0AF002C9E3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		518C9C59190AC0AF002C9E3D /* DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTests.m; sourceTree = "<group>"; };
+		518C9C63190AC29F002C9E3D /* HTABannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTABannerView.h; path = HTABannerView/HTABannerView.h; sourceTree = "<group>"; };
+		518C9C64190AC29F002C9E3D /* HTABannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTABannerView.m; path = HTABannerView/HTABannerView.m; sourceTree = "<group>"; };
+		518C9C68190AC2C3002C9E3D /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		518C9C69190AC2C3002C9E3D /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +80,8 @@
 		518C9C22190AC0AF002C9E3D = {
 			isa = PBXGroup;
 			children = (
+				518C9C6C190AC306002C9E3D /* HTABannerView */,
 				518C9C34190AC0AF002C9E3D /* Demo */,
-				518C9C53190AC0AF002C9E3D /* DemoTests */,
 				518C9C2D190AC0AF002C9E3D /* Frameworks */,
 				518C9C2C190AC0AF002C9E3D /* Products */,
 			);
@@ -112,11 +110,11 @@
 		518C9C34190AC0AF002C9E3D /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				518C9C68190AC2C3002C9E3D /* MasterViewController.h */,
+				518C9C69190AC2C3002C9E3D /* MasterViewController.m */,
 				518C9C3D190AC0AF002C9E3D /* AppDelegate.h */,
 				518C9C3E190AC0AF002C9E3D /* AppDelegate.m */,
 				518C9C40190AC0AF002C9E3D /* Main.storyboard */,
-				518C9C43190AC0AF002C9E3D /* ViewController.h */,
-				518C9C44190AC0AF002C9E3D /* ViewController.m */,
 				518C9C46190AC0AF002C9E3D /* Images.xcassets */,
 				518C9C35190AC0AF002C9E3D /* Supporting Files */,
 			);
@@ -134,22 +132,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		518C9C53190AC0AF002C9E3D /* DemoTests */ = {
+		518C9C6C190AC306002C9E3D /* HTABannerView */ = {
 			isa = PBXGroup;
 			children = (
-				518C9C59190AC0AF002C9E3D /* DemoTests.m */,
-				518C9C54190AC0AF002C9E3D /* Supporting Files */,
+				518C9C63190AC29F002C9E3D /* HTABannerView.h */,
+				518C9C64190AC29F002C9E3D /* HTABannerView.m */,
 			);
-			path = DemoTests;
-			sourceTree = "<group>";
-		};
-		518C9C54190AC0AF002C9E3D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				518C9C55190AC0AF002C9E3D /* DemoTests-Info.plist */,
-				518C9C56190AC0AF002C9E3D /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			name = HTABannerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +193,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 518C9C26190AC0AF002C9E3D /* Build configuration list for PBXProject "Demo" */;
+			buildConfigurationList = 518C9C26190AC0AF002C9E3D /* Build configuration list for PBXProject "HTABannerView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -238,7 +227,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				518C9C58190AC0AF002C9E3D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +237,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				518C9C45190AC0AF002C9E3D /* ViewController.m in Sources */,
 				518C9C3F190AC0AF002C9E3D /* AppDelegate.m in Sources */,
+				518C9C65190AC29F002C9E3D /* HTABannerView.m in Sources */,
+				518C9C6B190AC2C3002C9E3D /* MasterViewController.m in Sources */,
 				518C9C3B190AC0AF002C9E3D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				518C9C5A190AC0AF002C9E3D /* DemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,14 +276,6 @@
 				518C9C41190AC0AF002C9E3D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		518C9C56190AC0AF002C9E3D /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				518C9C57190AC0AF002C9E3D /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -440,7 +420,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		518C9C26190AC0AF002C9E3D /* Build configuration list for PBXProject "Demo" */ = {
+		518C9C26190AC0AF002C9E3D /* Build configuration list for PBXProject "HTABannerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				518C9C5B190AC0AF002C9E3D /* Debug */,
@@ -456,6 +436,7 @@
 				518C9C5F190AC0AF002C9E3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		518C9C60190AC0AF002C9E3D /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +445,7 @@
 				518C9C62190AC0AF002C9E3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

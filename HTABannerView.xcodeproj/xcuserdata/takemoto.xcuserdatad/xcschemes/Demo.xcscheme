@@ -17,7 +17,7 @@
                BlueprintIdentifier = "518C9C2A190AC0AF002C9E3D"
                BuildableName = "Demo.app"
                BlueprintName = "Demo"
-               ReferencedContainer = "container:Demo.xcodeproj">
+               ReferencedContainer = "container:HTABannerView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "518C9C4B190AC0AF002C9E3D"
                BuildableName = "DemoTests.xctest"
                BlueprintName = "DemoTests"
-               ReferencedContainer = "container:Demo.xcodeproj">
+               ReferencedContainer = "container:HTABannerView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -45,7 +45,7 @@
             BlueprintIdentifier = "518C9C2A190AC0AF002C9E3D"
             BuildableName = "Demo.app"
             BlueprintName = "Demo"
-            ReferencedContainer = "container:Demo.xcodeproj">
+            ReferencedContainer = "container:HTABannerView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "518C9C2A190AC0AF002C9E3D"
             BuildableName = "Demo.app"
             BlueprintName = "Demo"
-            ReferencedContainer = "container:Demo.xcodeproj">
+            ReferencedContainer = "container:HTABannerView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -82,7 +82,7 @@
             BlueprintIdentifier = "518C9C2A190AC0AF002C9E3D"
             BuildableName = "Demo.app"
             BlueprintName = "Demo"
-            ReferencedContainer = "container:Demo.xcodeproj">
+            ReferencedContainer = "container:HTABannerView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
